@@ -1,0 +1,20 @@
+.wrapper {
+    background: #f1f5f9;
+    min-height: 100vh;
+}
+
+.wrapper h2 {
+    color: #454244;
+    text-align: center;
+}
+
+.wrapper h3 {
+    color: #ebc05a;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form__text {
+    text-align: center;
+    margin-bottom: 20px;
+}

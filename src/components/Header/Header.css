@@ -1,0 +1,24 @@
+.header {
+    background: #eab308;
+    margin-bottom: 80px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+}
+
+.header input {
+    border: 0;
+    background: #fef08a;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.header__text {
+    text-transform: uppercase;
+    color: #564c37;
+    line-height: 1;
+}
