@@ -1,17 +1,15 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import './Form.css';
 import { useUserContext } from '../../context/UserContext';
 
 const Form = () => {
     const { userName, setUserName } = useUserContext();
 
-    const saveName = (e) => {
+    const saveName = useCallback((e) => {
         e.preventDefault();
-
         console.log(`Имя пользователя: ${userName}`);
-
         setUserName(userName);
-    };
+    }, [userName, setUserName]);
 
     return (
         <form className='form' onSubmit={saveName}>

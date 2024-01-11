@@ -1,8 +1,8 @@
 import './App.css';
 import { UserProvider } from '../src/context/UserContext';
 import { Routes, Route } from 'react-router-dom';
-import About from './components/About/About';
-import Home from './components/Home/Home';
+import About from './pages/About/About';
+import Home from './pages/Home/Home';
 
 const App = () => {
     return (
