@@ -1,8 +1,9 @@
 import './App.css';
 import { UserProvider } from '../src/context/UserContext';
 import { Routes, Route } from 'react-router-dom';
-import About from './pages/About/About';
+import Menu from './pages/Menu/Menu';
 import Home from './pages/Home/Home';
+import React from 'react';
 
 const App = () => {
     return (
@@ -10,7 +11,7 @@ const App = () => {
             <UserProvider>
                 <Routes>
                     <Route path="/" element={<Home/>}/>
-                    <Route path="/about" element={<About/>}/>
+                    <Route path="/menu" element={<Menu/>}/>
                 </Routes>
             </UserProvider>
         </div>
